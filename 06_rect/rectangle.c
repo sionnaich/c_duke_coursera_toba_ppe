@@ -16,15 +16,51 @@ int max (int a, int b) {
 }
 
 //Declare your rectangle structure here!
-
+struct rect_tag
+{
+  int x;
+  int y;
+  int width;
+  int height;
+};
+typedef struct rect_tag rectangle;
 
 rectangle canonicalize(rectangle r) {
   //WRITE THIS FUNCTION
+  if (r.width < 0)
+  {
+    r.x -= abs(r.width);
+    r.width = abs(r.width);
+  }
+  if (r.height < 0)
+  {
+    r.y -= abs(r.height);
+    r.height = abs(r.height);
+  }
   return r;
 }
 rectangle intersection(rectangle r1, rectangle r2) {
   //WRITE THIS FUNCTION
-  return r1;
+  rectangle ans;
+  ans.x = max(r1.x,r2.x);
+  ans.y = max(r1.y,r2.y);
+  // printf("DEBUG: abs(r1.x - r2.x) = %d  ", abs(r1.x - r2.x));
+  // printf("DEBUG: abs(r1.y - r2.y) = %d\n", abs(r1.y - r2.y)); 
+  ans.width = min(r1.width,r2.width) - abs(r1.x - r2.x);
+  ans.height = min(r1.height,r2.height) - abs(r1.y - r2.y);
+  // printf("DEBUG: ans.width = %d  ", ans.width);
+  // printf("DEBUG: ans.height = %d\n", ans.height);
+  if (ans.width < 0)
+  {
+    // ans.width = 0;
+  }
+  if (ans.height < 0)
+  {
+    //ans.height = 0;
+  }
+  //printf("DEBUG: DEPOIS ans.witdh = %d  ", ans.width);
+  //printf("DEBUG: DEPOIS ans.height = %d\n", ans.height);
+  return ans;
 }
 
 //You should not need to modify any code below this line
