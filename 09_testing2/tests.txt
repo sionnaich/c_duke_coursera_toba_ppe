@@ -75,13 +75,13 @@ aaaaa a
 12321 aa098
 1a2b3 a1b23
 ????? ?????
-aaaaa aaaag
-aaaaaa aaaaaa
-aa aaaaaa
-44444 42222
-1 1
-1 12345
-11 11111
-asdfg aassd
-aaaaa aaaaa
-(()_(
+
+a
+
+a a
+!! ***
+12345 12345
+AaAaA aaaaa
+AaAaA bbbbb
+AAAAa bbbbb
+1aA 1aa
