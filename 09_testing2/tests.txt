@@ -14,3 +14,67 @@ aaaa. aaaaa
 aaaaa aaaa.
 aaaa aaaa.
 aaaa. aaaa
+aAaaa aAaaa
+aAaaa aaAaa
+Aaaaa Aaaaa
+Aaaaa Aaaaa
+Aaaaa baaaa
+aaaa+ aaaa-
+abcde edcba
++aaa+ aaaaa
++++++ aaaaa
+aa+aa aaaaa
++++++ aaaaa
+aaaaa aa+aa
+.aaaa aaaaa
+aaaaa .aaaa
+ a
+a
+aaaa
+aa
+a aaaaa
+ aaaaa
+bbbbb b
+bbbbb
+aabaa aaBaa
+aaBaa aabaa
+aaaaaa aaaaa
+aaaaa aaaaaa
+aaaaab aaaaa
+aaaaa aaaaab
++++++ -----
+----- +++++
+----+ +----
+++-++ --+--
+--+-- -----
+aaaaaa aaaaaa
+aaaaab aaaaae
+aBcDe AbCdE
+AAAAa aaaaA
+AAAAA aaaaa
+aaaaa AAAAA
+aaaaA AAAAa
++aaaa aaaaa
+a+aaa aaaaa
+aa+aa aaaaa
+aaaa+ aaaaa
+33333 33333
+12345 54321
+12345 12345
+11234 22345
+11111 11112
+abcde 12345
+1111a aaaa1
+a1a1a 1a1a1
+11122 22211
+11222 22111
+32233 23322
+322330 32233
+111 222
+aaaaa a
+12321 aa098
+1a2b3 a1b23
+????? ?????
+!@#$% ""@#$
+aabcd //*-+
+
