@@ -3,3 +3,6 @@
 3s 2s 5h 6h 7d 8d 2c; 3s 2s 2c 5h 6h 7d 8d
 As 2s 3h 4h 6d 7d 8c; 8c 7d As 6d 4h 3h 2s
 3h 2s As 4h 6d 7d 8c; 8c 7d As 6d 4h 3h 2s
+3h 2s 8c 4h 6d 7d As; 8c 7d As 6d 4h 3h 2s
+3h 2s As 4h 6d 7d 8c; As 7d 8c 6d 4h 3h 2s
+3h 2s As 4h 6d 7d 8c; 8c 7d 2s 6d 4h 3h As
