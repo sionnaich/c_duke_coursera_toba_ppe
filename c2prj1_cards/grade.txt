@@ -1,4 +1,4 @@
-Grading at Fri Sep  4 05:16:52 UTC 2020
+Grading at Fri Sep  4 05:20:45 UTC 2020
 Compiling cards.c
 Testing card_from_letters
 Passed
@@ -9,7 +9,7 @@ Passed
 Testing card_from_num
 Passed
 Testing ranking_to_string
-ranking_to_string(STRAIGHT_FLUSH) resulted in Straight Flush (Incorrect)
+ranking_to_string(STRAIGHT_FLUSH) resulted in STRAIGHT_FLUSH  (Correct)
 ranking_to_string(FOUR_OF_A_KIND) resulted in Four of a Kind (Incorrect)
 ranking_to_string(FULL_HOUSE) resulted in Full House (Incorrect)
 ranking_to_string(FLUSH) resulted in Flush (Incorrect)
