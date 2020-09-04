@@ -16,28 +16,28 @@ const char * ranking_to_string(hand_ranking_t r) {
             return "STRAIGHT_FLUSH";
             break;
         case FOUR_OF_A_KIND:
-            return "Four of a Kind";
+            return "FOUR_OF_A_KIND";
             break;
         case FULL_HOUSE:
-            return "Full House";
+            return "FULL_HOUSE";
             break;
         case FLUSH:
-            return "Flush";
+            return "FLUSH";
             break;
         case STRAIGHT:
-            return "Straight";
+            return "STRAIGHT";
             break;
         case THREE_OF_A_KIND:
-            return "Three of a Kind";
+            return "THREE_OF_A_KIND";
             break;
         case TWO_PAIR:
-            return "Two Pair";
+            return "TWO_PAIR";
             break;
         case PAIR:
-            return "Pair";
+            return "PAIR";
             break;
         case NOTHING:
-            return "Nothing";
+            return "NOTHING";
             break;
         default:
             return NULL;
