@@ -1,40 +1,23 @@
-Grading at Fri Sep  4 05:05:27 UTC 2020
+Grading at Fri Sep  4 05:16:52 UTC 2020
 Compiling cards.c
 Testing card_from_letters
 Passed
 Testing value_letter and suit_letter
-For 2s, you gave value = , suit = s
-For 2h, you gave value = , suit = h
-For 2d, you gave value = , suit = d
-For 2c, you gave value = , suit = c
-For 3s, you gave value = , suit = s
-For 3h, you gave value = , suit = h
-For 3d, you gave value = , suit = d
-For 3c, you gave value = , suit = c
-For 4s, you gave value = , suit = s
-For 4h, you gave value = , suit = h
-For 4d, you gave value = , suit = d
-For 4c, you gave value = , suit = c
-For 5s, you gave value = , suit = s
-For 5h, you gave value = , suit = h
-For 5d, you gave value = , suit = d
-For 5c, you gave value = , suit = c
-For 6s, you gave value = , suit = s
-For 6h, you gave value = , suit = h
-For 6d, you gave value = , suit = d
-For 6c, you gave value = , suit = c
-For 7s, you gave value = , suit = s
-For 7h, you gave value = , suit = h
-For 7d, you gave value = , suit = d
-For 7c, you gave value = , suit = c
-For 8s, you gave value = , suit = s
-For 8h, you gave value = , suit = h
-For 8d, you gave value = , suit = d
-For 8c, you gave value = , suit = c
-For 9s, you gave value = 	, suit = s
-For 9h, you gave value = 	, suit = h
-For 9d, you gave value = 	, suit = d
-For 9c, you gave value = 	, suit = c
+Passed
+Testing print_card
+Passed
+Testing card_from_num
+Passed
+Testing ranking_to_string
+ranking_to_string(STRAIGHT_FLUSH) resulted in Straight Flush (Incorrect)
+ranking_to_string(FOUR_OF_A_KIND) resulted in Four of a Kind (Incorrect)
+ranking_to_string(FULL_HOUSE) resulted in Full House (Incorrect)
+ranking_to_string(FLUSH) resulted in Flush (Incorrect)
+ranking_to_string(STRAIGHT) resulted in Straight (Incorrect)
+ranking_to_string(THREE_OF_A_KIND) resulted in Three of a Kind (Incorrect)
+ranking_to_string(TWO_PAIR) resulted in Two Pair (Incorrect)
+ranking_to_string(PAIR) resulted in Pair (Incorrect)
+ranking_to_string(NOTHING) resulted in Nothing (Incorrect)
 Failed
 
 Overall Grade: FAILED
