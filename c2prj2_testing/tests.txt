@@ -11,6 +11,10 @@ As 2s 3h 4h 6d 7d 8c; 8c 7d As 6d 4h 3h 2s
 0d Qd Kd Ad 2c 3c 5c; 6s 7h 8d 9c 0s 2h 3h
 0c Qc Kc Ac 2s 3s 5s; 6s 7h 8d 9c 0s 2h 3h
 6s 7h 8d 9c 0s 2h 3h; 0s Qs Ks As 2h 3h 5h
+2s 2h; 8s 5s
+2s 2h; 8s 5s 4h
+2s 2h; 2s 2h 4h
+2s 2h; 2s 2h 2c
 2s 2h 3d; 8s 5s 4h
 2s 2h 3d 5c; 8s 5s 4h 3d
 2s 2h 3d 5c 6s; 8s 5s 4h 3d 2c
