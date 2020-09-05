@@ -1,3 +1,4 @@
+0c 0s 8s 7d 6d 6s 5c; Js 0s 8s 7d 6s 5c 4c
 2s 2h 3d 5c 6s 7h 8d; 8s 5s 4h 3d 2c As 0h
 3s 2s 5h 6h 7d 8d 2c; 3s 2s 2c 5h 6h 7d 8d
 As 2s 3h 4h 6d 7d 8c; 8c 7d As 6d 4h 3h 2s
