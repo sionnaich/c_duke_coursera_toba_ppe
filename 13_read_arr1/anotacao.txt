@@ -1,0 +1,10 @@
+5
+now 16
+p = array[1]
+q = addr array[3]
+pointer² x = addr q
+**x (array[3]) = 12
+*x (q) = p (array[1])
+**x (array[1]) = 42
+q[1] (array[1+1]) (array[2]) = 9
+array = 5, 42, 9, 12
