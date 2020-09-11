@@ -1,0 +1,28 @@
+[f]
+r = addr p
+s = addr q
+temp = a (80) (CUIDADO! ISSO É UM INT NÃO POINTER! UMA VEZ RECEBIDO O VALOR, ELE FICA FIXO!)
+temp2 = b (12) (CUIDADO! ISSO É UM INT NÃO POINTER! UMA VEZ RECEBIDO O VALOR, ELE FICA FIXO!)
+z = p (addr a)
+p = q (addr b)
+q = z (addr a)
+printfs (**r = 12, **s = 80)
+*z (a) = 83
+**s (a) = 75
+**r (b) = -7
+
+[main (init)]
+a = 80
+b = 12
+p = addr a
+q = addr b
+x = 68
+
+[main (final)]
+a = 75
+b = -7
+printf (x = 92)
+printf (*p = -7)
+printf (*q = 75)
+printf (a = 75)
+printf (b = -7)
