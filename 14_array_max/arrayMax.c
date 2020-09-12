@@ -2,7 +2,25 @@
 #include <stdlib.h>
 
 int * arrayMax(int * array, int n) {
-  return NULL;
+    if (n == 0)
+    {
+        return NULL;
+    }
+    else
+    {
+        int maior_valor = array[0];
+        int indice_maior = 0;
+        for (int i = 1; i < n; i++ )
+        {
+            if (array[i] > maior_valor)
+            {
+                indice_maior = i;
+                maior_valor = array[i];
+            }
+        }
+        return &array[indice_maior];
+    }
+    return NULL;
 }
 
 void doTest(int * array, int n) {
@@ -15,7 +33,7 @@ void doTest(int * array, int n) {
     for (int i =0; i < n; i++) {
       printf("%d", array[i]);
       if (i < n -1) {
-	printf(", ");
+    printf(", ");
       }
     }
     printf("}");
