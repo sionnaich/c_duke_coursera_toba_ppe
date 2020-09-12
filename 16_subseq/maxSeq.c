@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 size_t maxSeq(int* array, size_t n)
 {
     size_t length = 1;
+    size_t lentemp = 1;
+    //bool descontinuo = false;
     if (n == 0)
     {
         return 0;
@@ -18,12 +21,21 @@ size_t maxSeq(int* array, size_t n)
         {
             if (array[i + 1] > array[i])
             {
-                length++;
+                lentemp++;
             }
             else
             {
-                length = 1;
+                //descontinuo = true;
+                if (lentemp > length)
+                {
+                    length = lentemp;
+                }
+                lentemp = 1;
             }
+        }
+        if (lentemp > length)
+        {
+            length = lentemp;
         }
     }
     return length;
