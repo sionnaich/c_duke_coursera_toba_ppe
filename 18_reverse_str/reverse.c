@@ -4,16 +4,23 @@
 
 void reverse(char* str)
 {
-    size_t n = strlen(str);
-    char* copia = malloc((n * sizeof(char)) + 1);
-    strcpy(copia, str);
-    //char toba[n + 1] = strncpy(toba, str, n + 1); DA RUIM, geralmente n e uma boa ideia
-    for (size_t i = 0; i < n; i++)
+    if (str == NULL)
     {
-        str[i] = copia[(n - 1) - i];
+        ; //NOOP
     }
-    free(copia);
-    copia = NULL;
+    else
+    {
+        size_t n = strlen(str);
+        char* copia = malloc((n * sizeof(char)) + 1);
+        strcpy(copia, str);
+        //char toba[n + 1] = strncpy(toba, str, n + 1); DA RUIM, geralmente n e uma boa ideia
+        for (size_t i = 0; i < n; i++)
+        {
+            str[i] = copia[(n - 1) - i];
+        }
+        free(copia);
+        copia = NULL;
+    }
 }
 
 int main(void)
