@@ -19,7 +19,7 @@ void rotate (char matrix[10][10])
   {
     for (int j = 0; j < 10; j++)
     {
-      matrix[i][j] = novamatriz[i][j];
+      matrix[j][(n-1)-i] = novamatriz[i][j];
     }
   }
 }
