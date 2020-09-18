@@ -1,10 +1,10 @@
-Grading at Fri Sep 18 05:39:21 UTC 2020
+Grading at Fri Sep 18 05:42:47 UTC 2020
 Attempting to compile rotate.c
-rotate.c: In function ‘rotate’:
-rotate.c:8:7: error: unused variable ‘n’ [-Werror=unused-variable]
-   int n = 10;
-       ^
-cc1: all warnings being treated as errors
-The code did not compile!
+Running testcase 1
+valgrind reported memory errors
+Running testcase 1
+valgrind reported memory errors
+Running testcase 1
+valgrind reported memory errors
 
 Overall Grade: F
