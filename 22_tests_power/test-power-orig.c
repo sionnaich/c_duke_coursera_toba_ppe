@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 unsigned power(unsigned x, unsigned y);
 
@@ -22,5 +21,9 @@ int main()
     run_check(-1, 2, 1);
     run_check(10, 9, 1000000000);
     run_check(2, -1, 0.5);
+    run_check(2, -1, 0);
+    run_check(2, 4294967295, 0);
+    run_check(-5, 1, 4294967291);
+    run_check(4294967291, 2, 25);
     return EXIT_SUCCESS;
 }
