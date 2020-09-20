@@ -1,0 +1,31 @@
+main
+printDigits(297)
+
+printDigits (stack 1)
+x = 297
+a = 29
+b = 7
+(print) a=29 b=7
+printDigits(29)
+(print) 7
+
+printDigits (stack 2)
+x = 29
+a = 2
+b = 9
+(print) a=2 b=9
+printDigits(2)
+(print) 9
+
+printDigits (stack 3)
+x = 2
+a = 0
+b = 2
+(print) a=0 b=2
+(print) 2
+
+output
+a=29 b=7
+a=2 b=9
+a=0 b=2
+297
