@@ -18,5 +18,8 @@ int main()
     run_check(1, 1, 1);
     run_check(0, 10, 0);
     run_check(1, -1, 1);
+    run_check(-1, 1, -1);
+    run_check(-1, 2, 1);
+    run_check(10, 9, 1000000000);
     return EXIT_SUCCESS;
 }
