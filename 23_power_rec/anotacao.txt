@@ -1,0 +1,23 @@
+2 ^ 5 = 32
+2 ^ 5 = 2*2*2*2*2
+2 ^ 5 = ?
+
+1 stack
+2,5,2
+return (4,4,2)
+
+2 stack
+4,4,2
+return (8,3,2)
+
+3 stack
+8,3,2
+return (16,2,2)
+
+4 stack
+16,2,2
+return (32,1,2)
+
+5 stack
+32,1,2
+return 32
