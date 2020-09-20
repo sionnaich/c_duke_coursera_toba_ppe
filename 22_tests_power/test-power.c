@@ -24,6 +24,6 @@ int main()
     run_check(2, -1, 0);
     run_check(2, 4294967295, 0);
     run_check(-5, 1, 4294967291);
-    run_check(4294967291, 4294967291, 25);
+    run_check(4294967291, 2, 25);
     return EXIT_SUCCESS;
 }
