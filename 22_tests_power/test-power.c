@@ -21,5 +21,6 @@ int main()
     run_check(-1, 1, -1);
     run_check(-1, 2, 1);
     run_check(10, 9, 1000000000);
+    run_check(2, -1, 0.5);
     return EXIT_SUCCESS;
 }
