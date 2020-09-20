@@ -23,13 +23,14 @@ do
 	if [ "$test" == "" ]
 	then
 	    echo "Your test program falsely failed the correct implementation!" > /dev/stderr
+	    echo "$test"
 	    exit 1
 	fi
     else
 	if [ "$test" != "" ]
 	then
 	    echo "Your test program did not identify $i as broken!" > /dev/stderr
-	    exit 1
+	    #exit 1
 	fi
     fi
     echo ""
