@@ -19,10 +19,10 @@ int deck_contains(deck_t* d, card_t c)
         if (suit_letter(*(d->cards[i])) == suit_letter(c)
             && value_letter(*(d->cards[i])) == value_letter(c))
         {
-            return 0;
+            return 1;
         }
     }
-    return 1;
+    return 0;
 }
 
 void shuffle(deck_t* d)
