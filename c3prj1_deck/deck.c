@@ -32,7 +32,7 @@ void shuffle(deck_t* d)
     for (size_t i = n - 1; i > 0; i--)
     {
         size_t j = random() % (i + 1);
-        d->cards[i] = temp;
+        temp = d->cards[i]; //CAGUEI AQUI POR FALTA DE ATENCAO. CLARO Q VAI DAR SIGSEGV
         d->cards[i] = d->cards[j];
         d->cards[j] = temp;
     }
